@@ -1,0 +1,38 @@
+@media (max-width: 500px) {
+  #nav-bar {
+    flex-direction: column;
+  }
+  #nav-bar .logo {
+    padding-top: 10px;
+  }
+  /* who section */
+  #what .items {
+    flex-direction: column;
+  }
+  #what .items .item {
+    border-bottom: 1px #f2f2f2 solid;
+  }
+  /* what section */
+  #who {
+    flex-direction: column;
+  }
+  .large-heading {
+    font-size: 2rem;
+    margin-top: -30px;
+  }
+  .lead {
+    font-size: 1.2rem;
+  }
+  #contact {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  #contact .map {
+    display: block;
+    width: 400px;
+    height: fit-content;
+    z-index: 1;
+  }
+  
+}

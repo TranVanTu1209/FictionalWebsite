@@ -1,0 +1,7 @@
+@media (max-height: 1050px) {
+  
+  #what .items .item {
+    margin: 10px 50px;
+    text-align: left;
+  }
+}
